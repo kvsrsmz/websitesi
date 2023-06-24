@@ -96,3 +96,154 @@
         }
 
         .col-3 {
+            display: inline-block;
+            width: 30%;
+            padding: 16px;
+            margin: 8px;
+        }
+
+        .col-2 {
+            display: inline-block;
+            width: calc(50% - 2px);
+            height: 350px;
+            background-color: darkgoldenrod;
+        }
+
+        .icon-box h3 {
+            color: darkgoldenrod;
+            font-size: 26px;
+        }
+
+        .icon-box i {
+            color: darkgoldenrod;
+        }
+
+        .features__left {
+            background: url("Summer-Film-Preview-1_1651752627334_1651752670745.webp");
+            background-size: contain;
+            background-position: top center;
+        }
+
+        .features__right {
+            background-color: oldlace;
+            padding: 40px;
+            vertical-align: top;
+        }
+
+        .features__right h3 {
+            font-size: 30px;
+        }
+
+        .section-title {
+            text-align: center;
+        }
+
+        .plan {           
+            text-align: center;
+            padding: 5px;
+            width: 33.3%;
+            float: left;
+        }
+
+        .plan__badge {
+            background: #fff;
+            color: darkgoldenrod;
+            padding: 8px;
+            border-radius: 5px;
+        }
+
+        .recommended_plan {
+            color: #fff;
+            background: darkgoldenrod!important;
+        }
+
+        .inner-plan {
+            background: oldlace;
+            padding: 25px 10px;
+            border-radius: 5px;
+            box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+            transition: box-shadow .6s;
+        }
+
+        .inner-plan:hover {
+            box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.5);
+        }
+
+        .plan__features {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .plan__features li {
+            margin: 6px 0;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .container {
+            margin: 0 auto;
+            width: 1000px;
+        }
+        
+    </style>
+</head>
+
+
+
+
+
+
+
+
+
+<body> 
+
+    <header class="main-header">
+        <a href="#" class="main-header__logo">FilmPerisi</a>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="#">Filmler</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Diziler</a>
+                </li>
+                <li class="main-nav__item main-nav__item--login">
+                    <a class="btn btn-secondary" href="#">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>    
+
+    <main>
+        <section id="showcase">
+            
+        </section>
+        <section id="how-it-works">
+            <div class="row">
+                <h2>Film Perisine Hoş Geldiniz</h2>
+                <p>Şimdiden başlayarak en sevdiğiniz filmleri ve dizileri izlemeye nasıl başlayacağınızı adım adım göstereceğiz!</p>
+            </div>
+
+            <div class="row">
+                <div class="icon-box col-3">
+                    <i class="fas fa-sign-in-alt fa-3x"></i>
+                    <h3>Üye Olun</h3>
+                    <p>Sizden istenilen kişisel bilgilerinizi girerek hızlıca üye olabilirsiniz.</p>
+                </div>
+                <div class="icon-box col-3">
+                    <i class="fab fa-buffer fa-3x"></i>
+                    <h3>Planınızı Seçin</h3>
+                    <p>Seçeceğiniz plana göre film, dizi önerilerinizi alacak olup sitemizin içeriklerinden faydalanabileceksiniz.</p>
+                </div>
+                <div class="icon-box col-3">
+                    <i class="far fa-smile fa-3x"></i>
+                    <h3>Filmlerin Tadını Çıkarın</h3>
+                    <p>Ve geriye sadece tadını çıkarmak kaldı.</p>
+                </div>
+            </div>
